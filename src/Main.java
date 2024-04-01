@@ -4,7 +4,7 @@ public class Main {
         //Задача 1
       Scanner sc = new Scanner(System.in);
       System.out.println("Введите ваш возраст");
-      byte age = sc.nextByte();
+      int age = sc.nextInt();
       if (age >= 18) {
           System.out.println("Если возраст человека равен " + age + ", то он совершеннолетний");
       } else {
@@ -20,7 +20,7 @@ public class Main {
         }
           //Задача 3
       System.out.println("Введите скорость");
-        byte speed = sc.nextByte();
+        short speed = sc.nextShort();
         if (speed > 60) {
             System.out.println("Если скорость " + speed + ", то придется заплатить штраф");
         } else {
@@ -53,7 +53,7 @@ public class Main {
         //Задача 6
         byte capacity = 102;
         System.out.println("Введите количество людей в вагоне");
-        byte numbPerson = sc.nextByte();
+        short numbPerson = sc.nextShort();
         if (numbPerson<60) {
             System.out.println("В вагоне есть сидячие места");
         } else if (numbPerson>=60 && numbPerson<capacity) {
