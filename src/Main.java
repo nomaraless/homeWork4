@@ -62,6 +62,7 @@ public class Main {
             System.out.println("В вагоне нет мест");
         }
         //Задача 7
+
         System.out.println("Введите три числовых значения");
         int one = sc.nextInt();
         int two = sc.nextInt();
